@@ -1,0 +1,14 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <h1>Your POSTS</h1>
+
+    @if ($posts->isEmpty())
+        <p>No post has been created yet.</p>
+    @else
+        there are post
+    @endif
+
+</div>
+@endsection
